@@ -123,9 +123,50 @@ button {
     align-items: flex-start;
 }
 
-.author{
+.author {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     font-weight: bold;
+}
+
+.banner {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 36px;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-banner-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.signup-button {
+    padding: 3px;
+    border-radius: 3px;
+    width: 72px;
+    font-size: 16px;
+    border: 2px solid;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
 }
